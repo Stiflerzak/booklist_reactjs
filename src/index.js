@@ -22,8 +22,14 @@ const Book=() =>{
 }
 const Image=() => <img src="https://images-na.ssl-images-amazon.com/images/I/91MowzF+WZL._AC_UL600_SR600,400_.jpg" alt="The Light We Carry: Overcoming in Uncertain Times"/>
 const Title=() => <h2>The Light We Carry: Overcoming in Uncertain Times</h2>
+// Author component 
 const Author=() => {
-   return <h4>Michelle Obama</h4>
+    // inlinestyling using an object
+    const inlineHeadingStyles={
+    color:'#617d98',
+    fontSize:'0.75rem',
+    marginTop:"0.5rem" }
+   return <h4 style={inlineHeadingStyles}>Michelle Obama</h4>
 }
 
 
