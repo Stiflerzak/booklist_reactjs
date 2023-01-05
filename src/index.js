@@ -19,10 +19,10 @@ const Book=() =>{
         </article>
         )
 }
-const Image=() => <h2>image placeholder</h2>
-const Title=() => <h2>Book Title</h2>
+const Image=() => <img src="https://images-na.ssl-images-amazon.com/images/I/91MowzF+WZL._AC_UL600_SR600,400_.jpg" alt="The Light We Carry: Overcoming in Uncertain Times"/>
+const Title=() => <h2>The Light We Carry: Overcoming in Uncertain Times</h2>
 const Author=() => {
-   return <h4>Book Author</h4>
+   return <h4>Michelle Obama</h4>
 }
 
 
