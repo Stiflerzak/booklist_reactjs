@@ -12,13 +12,16 @@ const Booklist=() =>{
     )
 }
 const Book=() =>{
+    const title='The Light We Carry: Overcoming in Uncertain Times'
+    const author='Michelle Obama'
     return (
         <article className="book">
         <img src="https://images-na.ssl-images-amazon.com/images/I/91MowzF+WZL._AC_UL600_SR600,400_.jpg" alt="The Light We Carry: Overcoming in Uncertain Times"/>
-        <h2>The Light We Carry: Overcoming in Uncertain Times</h2>
-        <h4>Michelle Obama</h4>
+        <h2>{title.toUpperCase()}</h2>
+        <h4>{author}</h4>
+        <p>{10 + 6}</p>
         </article>
-        )
+        );
 }
 
 const root =ReactDOM.createRoot(document.getElementById('root'))
