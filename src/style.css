@@ -6,7 +6,33 @@
 
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background:#556B2F;
+    background:#DCDCDC;
     color:#A9A9A9;
+}
+
+.booklist{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem auto;
+    display:grid;
+    gap: 2rem;
+}
+/* sets 3 columns for booklist */
+@media screen and (min-width: 768px){
+    .booklist{
+        grid-template-columns: repeat(3,1fr)
+    }
+}
+
+.book{
+    background:#2F4F4F;
+    border-radius: 0.5rem;
+    padding:2rem;
+    text-align:center;
+}
+
+.book img{
+width:100%;
+object-fit: cover;
 
 }
